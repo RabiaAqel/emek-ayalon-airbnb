@@ -9,7 +9,7 @@ const Accordion = ({ title, content }) => {
         <div>{title}</div>
         <div>{isActive ? '-' : '+'}</div>
       </div>
-      {isActive && <div className="accordion-content">{content.split(';').map(e => <p>{e}<br/><br/></p>) }</div>}
+      {isActive && <div className="accordion-content fadeIn"><div className="fadeIn">{content.split(';').map(e => <p>{e}<br/><br/></p>) }</div></div>}
     </div>
   );
 };
