@@ -6,7 +6,7 @@
 
 body {
   font-family: Geneva, Verdana, Tahoma, sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   background: black;
 }
 
@@ -17,7 +17,7 @@ h4 {
 
 }
 
-h6 {
+h5 {
   text-align: center;
   margin: 0rem 0 0rem 0;
   color: rgb(108, 108, 112);
@@ -55,7 +55,7 @@ h6 {
 
 @media screen and (max-width: 700px) {
   body {
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .accordion {
