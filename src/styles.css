@@ -7,12 +7,7 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
-  background: rgb(238, 174, 202);
-  background: radial-gradient(
-    circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(199, 233, 148, 1) 100%
-  );
+  background: black;
 }
 
 h1 {
@@ -21,7 +16,7 @@ h1 {
 }
 
 .accordion {
-  max-width: 600px;
+  max-width: 60%;
   margin: 2rem auto;
 }
 
@@ -30,11 +25,15 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   cursor: pointer;
-  background-color: #21aeca;
+  color: rgb(242, 242, 247);
+  background-color: rgb(36, 36, 38);
+
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 .accordion-title:hover {
-  background-color: #3ab4cc;
+  background-color: rgb(68, 68, 70);
 }
 
 .accordion-title,
@@ -43,7 +42,9 @@ h1 {
 }
 
 .accordion-content {
-  background-color: #39b9d2;
+  background-color: black;
+  color: rgb(174, 174, 178);
+
 }
 
 @media screen and (max-width: 700px) {
